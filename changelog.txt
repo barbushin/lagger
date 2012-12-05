@@ -1,0 +1,62 @@
+Release 1.5.1
+
+* Fixed: E_WARNING Invalid argument supplied for foreach() in Lagger/Handler.php:56
+
+Release 1.5
+
+* Added: Backtrace of error/exception calls availabled like {trace} template var
+* Added: New version of Lagger_Action_ChromeConsole with backtrace support
+
+Release 1.4.6
+
+* Added: New version of Lagger_Action_ChromeConsole
+* Deprecated: FirePHP support
+
+Release 1.4.5
+
+* Fixed: Compatibility with PHP 5.2.x
+* Fixed: Fatal errors handling in Lagger_Action_ChromeConsole in PHP 5.2.x
+
+Release 1.4.2
+
+* Added: Lagger_Action_ChromeConsole - send messages to Google Chrome console
+* Added: Lagger_Handler_Errors ignore errors marked with @
+* Added: Lagger_Handler_Exceptions now has "trace" var in eventspace
+* Added: Lagger_Action_Print::flushToHtmlBody()
+* Fixed: Lagger_Action_Print flushing buffer on exit
+* Fixed: Lagger_Tagger session starting
+* Fixed: Lagger_ExpireList directory check
+* Fixed: Lagger_Handler internal exceptions throwing
+* Fixed: Lagger_ExpireList saving when script is break by fatal error
+* Fixed: Lagger_Eventspace now correctly fetch values of callback vars
+
+Release 1.4
+
+* Added: Lagger_Action_WinSpeak
+
+Release 1.3
+
+* Added: Lagger_Tagger - to rewrite actions tags by GET request
+* Fixed: Sort classes by directories
+
+Release 1.2
+
+* Added: Handling fatal PHP errors
+* Added: Integration with FirePHP http://www.firephp.org
+* Fixed: Lagger_PrintAction don't flush headers any more
+
+Release 1.1
+
+* Added: Internal Lagger errors/exceptions support
+* Added: Support of Lagger_ActionException
+* Added: Lagger_ActionSms by SMS gateway class of service http://litesms.net
+* Added: Using custom functions as modifiers for templates(without registration)
+* Improved: Defining templates like a strings, not like objects
+* Improved: Lagger_ActionFileLog limits checking only in one of 100 iterations
+* Fixed: Lagger_PrintAction now work correctly on flushing buffer
+* Fixed: Correct tags matching check in Lagger_Handler_Debug
+* Fixed: Lagger_Skiper expire time updating when expire check
+
+Release 1.0
+
+* All it was :)

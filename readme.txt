@@ -1,3 +1,6 @@
+Lagger - Lightweight and flexible errors/exceptions/debugs handler for PHP
+
+Features:
 Lightweight and flexible errors/exceptions/debugs handler for PHP
 
 There are 3 event handlers classes:
@@ -24,9 +27,6 @@ And some other important features:
   * Reconfiguring handlers dynamicaly by specific GET request (using Lagger_Tagger)
   * Handling internal errors
   * Just 20kb of 100% OOP source code
-
-SVN/trunk:
-http://lagger.googlecode.com/svn/trunk
 
 Project site:
 http://code.google.com/p/lagger

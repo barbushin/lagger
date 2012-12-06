@@ -3,8 +3,8 @@
 /**
  *
  * @desc This class provides namespace of events variables
- * @see http://code.google.com/p/lagger
- * @author Barbushin Sergey http://www.linkedin.com/in/barbushin
+ * @see https://github.com/barbushin/lagger
+ * @author Barbushin Sergey http://linkedin.com/in/barbushin
  *
  */
 class Lagger_Eventspace {

@@ -41,6 +41,6 @@ $phar->stopBuffering();
 ?>
 <pre>
 Done. See <?= LAGGER_PHAR_FILEPATH ?>
-Now you can include DaBase to your project just by:
+Now you can include Lagger to your project just by:
 
 require_once('phar://<?= LAGGER_PHAR_FILEPATH ?>);

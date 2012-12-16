@@ -46,7 +46,8 @@ define('DEBUG_LOGING_TEMPLATE', "{date} {time};{process_id|csv};{microtime|csv};
 // Autoload Lagger classes (check alternative way in /examples/build_phar/)
 define('LIB_DIR', dirname(dirname(__FILE__)) . '/library/');
 function autoloadByDir($class) {
-	$filePath = LIB_DIR . str_replace('_', DIRECTORY_SEPARATOR, $class) . '.php';
-	require_once ($filePath);
+	if(strpos($class, 'Lagger_') === 0) {
+		require_once(LIB_DIR . str_replace('_', DIRECTORY_SEPARATOR, $class) . '.php');
+	}
 }
 spl_autoload_register('autoloadByDir');
